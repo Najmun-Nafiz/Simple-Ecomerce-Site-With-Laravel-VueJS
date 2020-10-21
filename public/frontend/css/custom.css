@@ -1,0 +1,258 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+/** Navbar Customization Here **/
+.navber-height{
+	height: 85px;
+}
+
+.navber-height .navbar-brand .logo{
+	height: 80px;
+    width: 90px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link{
+	font-size: 13px;
+	padding: 8px
+}
+
+/* ************************** */
+/* Sliders Section */
+/* ************************** */
+
+.cover-slides {
+	height: 400px !important;
+}
+
+.cover-slides .freshshop-title {
+	width: 60%;
+}
+
+.cover-slides .freshshop-description {
+	width: 60%;
+}
+
+.categories-shop .categoryProduct-image {
+	width: 100%;
+	height: 230px;
+}
+
+/* ************************** */
+/* Meet Our Team */
+/* ************************** */
+
+.team-section-height {
+	min-height: 300px;
+	width: 100%;
+}
+
+.team-section-height .post {
+	font-size: 20px;
+}
+
+.our-team .icon {
+	border-top: 2px solid red;
+}
+
+/* ************************** */
+/* Meet Our Team */
+/* ************************** */
+.dropdown-background {
+	background-color: #b0b435;
+}
+.dropdown-signin li{
+	transition: 0.5s;
+}
+
+.dropdown-signin li:hover {
+	width: 100%;
+	background-color: black;
+	padding: 5px;
+}
+
+.dropdown-signin li:hover a{
+	color: black;
+}
+
+/* ************************** */
+/* Header Profile section */
+/* ************************** */
+.profileImage {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+	padding: 5px;
+	border: 2px solid white;
+	float: right;
+}
+
+.profile-background {
+	background-color: #9e0505;
+}
+
+.profile-background .dropdown-item {
+	transition: 0.5s;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.profile-background .dropdown-item:hover {
+	color: #b0b435;
+	font-weight: 500;
+	width: 100%;
+	background-color: #000000;
+	padding: 5px;
+}
+
+/* ************************** */
+/* Gallery Section */
+/* ************************** */
+
+.bg-button-gallery {
+	background: #b0b435;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 30px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.bg-button-gallery:focus {
+	background: #000000;
+	color: #fff;
+}
+
+/* ************************** */
+/* Blogs section */
+/* ************************** */
+
+.blog-image img {
+	height: 300px !important;
+	width: 100%;
+}
+
+/* ************************** */
+/* Authentication Login section */
+/* ************************** */
+
+
+.back-image {
+	background-image: linear-gradient(rgba(247, 210, 0, 0.5),rgba(247, 210, 0, 0.5)), url("../images/authentication/shoper.jpg");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 80vh;
+}
+
+.back-image .card {
+	height: 80vh;
+}
+
+.authenticate .card {
+	border-radius: 0;
+	position: relative;
+}
+
+.authenticate .position-set {
+	position: absolute;
+	width: 95%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.bg-color {
+	width: 100%;
+	background-color: #5a1e01d6;
+}
+
+/* ************************** */
+/* Authentication Register section */
+/* ************************** */
+
+.back-images {
+	background-image: linear-gradient(rgba(247, 210, 0, 0.5),rgba(247, 210, 0, 0.5)), url("../images/authentication/shoper.jpg");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 120vh;
+}
+
+.back-images .card {
+	height: 120vh;
+}
+
+/* ************************** */
+/* Authentication Verify section */
+/* ************************** */
+
+.verify-image {
+	background-image: linear-gradient(rgba(247, 210, 0, 0.5),rgba(247, 210, 0, 0.5)), url("../images/authentication/verify-shoper.jpg");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 70vh;
+}
+
+.verify-image .card {
+	height: 30vh;
+}
+
+/* ************************** */
+/* Authentication Forgot-Password section */
+/* ************************** */
+
+.forgot-image {
+	background-image: linear-gradient(rgba(247, 210, 0, 0.5),rgba(247, 210, 0, 0.5)), url("../images/authentication/vegitables.jpg");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 70vh;
+}
+
+.forgot-image .card {
+	height: 70vh;
+}
+
+/* ************************** */
+/* Authentication Reset-Password section */
+/* ************************** */
+
+.reset-image {
+	background-image: linear-gradient(rgba(247, 210, 0, 0.5),rgba(247, 210, 0, 0.5)), url("../images/authentication/flower.jpg");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 70vh;
+}
+
+.reset-image .card {
+	height: 70vh;
+}
+
+/* ************************** */
+/* Authentication Profile-Change section */
+/* ************************** */
+
+.profile-image {
+	background-image: linear-gradient(rgba(247, 210, 0, 0.5),rgba(247, 210, 0, 0.5)), url("../images/authentication/fruits.jpg");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 100vh;
+}
+
+.profile-image .card {
+	height: 100vh;
+}
+
+@media only screen and (max-width: 767.98px){
+	
+	.back-images .card-body .form-group {
+		padding: 0;
+		margin-bottom: 5px !important;
+	}
+}
+

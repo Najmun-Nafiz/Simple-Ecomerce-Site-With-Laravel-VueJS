@@ -1,0 +1,113 @@
+/* ============================ */
+/* Header Section Modify  */
+/* ============================ */
+
+.wrapper .content-wrapper {
+	background: #b000f938;
+}
+
+.header-section .navbar-dark {
+	background-color: #0c0c0c;
+	color: #fff;
+}
+.update-background-color {
+	background-color: #0c0c0c;
+	border-right: 1px solid #4f5962;
+}
+
+.main-sidebar .brand-link {
+	border-bottom: 1px solid #4f5962;
+	border-right: 1px solid #4f5962;
+	background-color: #0c0c0c !important;
+}
+
+/* ============================ */
+/* Header Section Icon Change  */
+/* ============================ */
+
+.icon-menu i.more{
+	display:inline-block;
+}
+.icon-menu i.less{
+	display:none;
+}
+
+.sidebar-collapse i.less{
+	display:inline-block;
+}
+.sidebar-collapse i.more{
+	display:none;
+}
+
+/* ============================ */
+/* Sidebar Section Modify  */
+/* ============================ */
+
+.nav-sidebar .nav-item:hover .nav-link {
+	background-color: transparent !important;
+}
+
+.nav-sidebar .nav-item .nav-link:hover {
+	background-color: rgba(96,17,121,1) !important;
+}
+
+.nav-sidebar .nav-item .nav-link:focus {
+	background-color: rgba(96,17,121,1) !important;
+}
+
+/* ============================ */
+/* Data-Table Section Modify  */
+/* ============================ */
+
+.datatable-background {
+	background: #717ae6;
+}
+
+.modal-modify button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.modal-modify button {
+	border-radius: 50%;
+}
+
+.modal-modify button:hover {
+	outline: 2px solid #e25d0f;
+	border-radius: 50% !important;
+}
+
+.datatable-header strong {
+	font-size: 18px;
+}
+
+.datatable-header .datatable-select {
+	width: 20%;
+	float: left;
+}
+.datatable-header .datatable-search {
+	width: 25%;
+	float: right;
+}
+
+.destroy-body {
+	padding: 40px 0px 70px 15px;
+	border-bottom: 1px solid #fff;
+}
+
+.description-width {
+	width: 35%;
+}
+
+.destroy-body h5 {
+	font-size: 25px;
+}
+
+/* ============================ */
+/* Footer Section Modify  */
+/* ============================ */
+
+.main-footer {
+	background: #0c0c0c !important;
+	border-left: 1px solid #4f5962;
+}
